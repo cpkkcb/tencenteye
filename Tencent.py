@@ -43,7 +43,7 @@ def tencent(url):
            # print (res+res1)
            # print ('https://s.tencent.com/' + str(url[i + 5]['href']))
            datamsg = {"text":res, "desp": 'https://s.tencent.com/' + str(url[i + 5]['href'])}
-           requests.post("http://sc.ftqq.com/" + "SCU84394Tc33e73b89c0eb5dde7fb2d7ccef011255e4a76d8b93df" + ".send",
+           requests.post("http://sc.ftqq.com/" + "server酱key" + ".send",
                          data=datamsg)
            break
 
